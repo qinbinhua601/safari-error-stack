@@ -2,6 +2,10 @@
 
 safari跨域js错误堆栈，获取不到错误信息
 
+左边chrome有错误信息，右边safari没有错误信息
+
+![图片](https://github.com/qinbinhua601/safari-error-stack/blob/main/images/issue.png?raw=true)
+
 ### 怎么启动
 
 ```bash
