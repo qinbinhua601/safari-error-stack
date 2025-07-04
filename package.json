@@ -1,0 +1,19 @@
+{
+  "name": "safari-error-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "error": "node app_error.js",
+    "cors": "node app_cors.js",
+    "start": "node main.js",
+    "dev": "concurrently \"npm run error\" \"npm run cors\" \"npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}

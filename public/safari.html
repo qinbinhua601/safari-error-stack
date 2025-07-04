@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>safari error stack</title>
+</head>
+<body>
+  <!-- 跨域名，有问题 -->
+  <script crossorigin="anonymous" src="http://localhost:3001/error.js"></script>
+  <script crossorigin="anonymous" src="http://localhost:3003/cors.js"></script>
+  <script>
+    makeError();
+  </script>
+</body>
+</html>
