@@ -4,9 +4,16 @@ safari跨域js错误堆栈，获取不到错误信息
 
 ### 怎么启动
 
-nvm use
-npm install
-npm run dev
+```bash
+# 切node版本
+nvm use  
+
+# 安装依赖
+npm install  
+
+# 启动服务
+npm run dev  
+```
 
 
 ### 复现问题
